@@ -1,0 +1,6 @@
+services:
+
+  sample:
+    image: europe-central2-docker.pkg.dev/phonic-monolith-310711/wedeliverit/native-image:0.4
+    ports:
+      - "8080:8080"
