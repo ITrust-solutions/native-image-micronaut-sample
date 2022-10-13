@@ -1,3 +1,19 @@
+## About this sample
+
+Sipmle app with only one endpoitn to show how to make Java native image with Micronaut Framework, pack it in docker and deploy at Google CloudRun for testing.
+
+To build  Java native image run:
+
+````shell
+mvn -Pnative,graalvm package
+````
+
+To build Docker with native image run:
+
+````shell
+make docker
+````
+
 ## Micronaut 3.6.3 Documentation
 
 - [User Guide](https://docs.micronaut.io/3.6.3/guide/index.html)
@@ -69,8 +85,5 @@ curl https://native-image-__________run.app/nativeImage
 
 - [https://projectlombok.org/features/all](https://projectlombok.org/features/all)
 
-## Feature http-client documentation
-
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
 
 

@@ -7,12 +7,12 @@ import io.micronaut.http.annotation.*;
 public class NativeImageController {
 
     @Get
-    public HalloDTO hello() {
+    public HalloDTO hallo() {
         return new HalloDTO("No name");
     }
 
     @Get("/{name}")
-    public HalloDTO hello(@PathVariable String name) {
+    public HalloDTO hallo(@PathVariable String name) {
         return new HalloDTO(name);
     }
 }

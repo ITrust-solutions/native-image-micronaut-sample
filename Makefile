@@ -1,4 +1,5 @@
-IMAGE_NAME=europe-central2-docker.pkg.dev/phonic-monolith-310711/wedeliverit/native-image
+#IMAGE_NAME=europe-central2-docker.pkg.dev/phonic-monolith-310711/wedeliverit/native-image
+IMAGE_NAME=lapierre/native-image
 IMAGE_VERSION=0.4
 
 docker:
